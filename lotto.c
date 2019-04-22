@@ -26,7 +26,7 @@ int main(){
 	yes_or_no = getch();
 	if(yes_or_no == 'y'){
 		printf("%d",count);
-		return 0;0
+		return 0;
 	}
 	else{
 		continue;
