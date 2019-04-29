@@ -28,7 +28,7 @@ int main(){
 		}
 	}
 	for(i = 0;i<6;i++){
-		printf("%d : ",counter[i]);
+		printf("%d : ",i+1);
 		for(j = 0;j < counter[i];j++){
 			printf("*");
 		}
