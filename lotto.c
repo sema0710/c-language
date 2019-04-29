@@ -24,9 +24,11 @@ int main(){
 				register1 = lotto[j];
 				lotto[j] = lotto[j+1];
 				lotto[j+1] = register1;
+				printf("%d %d %d %d %d %d\n",lotto[0],lotto[1],lotto[2],lotto[3],lotto[4],lotto[5]);
 			}
 		}
 	}
+	printf("---------------------------------------------------------------------------------\n");
 	for(i=0;i<6;i++){
 		printf("%d ",lotto[i]);
 	}
