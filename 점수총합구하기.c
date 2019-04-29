@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-int field[5][5];
+int field[5][6];
 int i,j,sub=0;
 for(i=0;i<4;i++){
 	for(j=0;j<4;j++){
@@ -18,7 +18,7 @@ for(i=0;i<5;i++){
 }
 for(i=0;i<5;i++){
 	for(j=0;j<5;j++){
-		printf("%d ",field[i][j]);
+		printf("%2d ",field[i][j]);
 	}
 	printf("\n");
 }
