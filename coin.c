@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#define Front 0 
+#define  
 int main(){
 	srand(time(NULL));
 	float front,back,i;
 	for(i=0;i<10000;i++){
 		if(rand()%2 == 0){
-			Front++;
+			front++;
 		}
 		else{
 			back++;
