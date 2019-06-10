@@ -37,6 +37,8 @@ int error(){
 	int i = 0;
 	for(i=0;input[i];i++)
 	if(input[i] || result < 0 || 65535 < result || toint(input[i]) < 0 || jinsu1 <= toint(input[i])){
+	}
+	else{
 		return 0;
 	}
 	return 1;
@@ -45,7 +47,7 @@ int main(){
 	scanf("%s",input);
 	scanf("%d %d",&jinsu1,&jinsu2);
 	toten();
-	if(!error()){
+	if(error() == 1){
 		puts("error");
 		return 0;
 	}
