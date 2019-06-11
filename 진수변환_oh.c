@@ -35,13 +35,14 @@ void toano(){
 }
 int error(){
 	int i = 0;
-	for(i=0;input[i];i++)
-	if(input[i] || result < 0 || 65535 < result || toint(input[i]) < 0 || jinsu1 <= toint(input[i])){
+	for(i=0;input[i];i++){
+	if(result < 0 || 65535 < result || toint(input[i]) < 0 || jinsu1 <= toint(input[i])){
+		return 1; 
 	}
 	else{
 		return 0;
 	}
-	return 1;
+}
 }
 int main(){
 	scanf("%s",input);
