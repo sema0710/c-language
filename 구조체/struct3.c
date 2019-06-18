@@ -1,10 +1,14 @@
 #include <stdio.h>
+#include <stdio.h>
+
 struct person{
 	char name[20];
 	int age;
 };
+
 int main(){
 	struct person ps1;
-	ps1.name = "ohjunsang";
+	strcpy(ps1.name,"hello world!");
 	ps1.age = 17;
+	ps1.&(name) = "adf";
 }
