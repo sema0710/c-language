@@ -4,7 +4,7 @@ struct person{
 	int age;
 };
 int main(){
-	struct person ps1[3];
+	struct person ps1[3];//person이라는 구조체로 3칸 배열을 선언 
 	int i;
 	for(i=0;i<3;i++){
 		scanf("%d",&ps1[i].age);
